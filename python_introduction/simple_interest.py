@@ -1,6 +1,6 @@
-principal = 1000 #Dollar
-rate = 0.05 #annual interest rate
-time = 3 #Years
+principal = 1000 
+rate = 0.05 
+time = 3
 
 interest = principal * rate * time
 
