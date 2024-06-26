@@ -24,11 +24,14 @@ match operator:
     case '*':
         result = num1 * num2
         print(f'the result is', result)
-    case '/' if num2 != 0:
-        result = num1 / num2
-        print(f'the result is', result)
-    case '/' if num2 == 0:
-        print('cannot divide by zero')
+    case '/':
+        if num2 != 0:
+            result = num1 / num2
+            print(f'the result is', result)
+        else:
+            print('cannot divide by zero')
+            
+    
 
 
     
