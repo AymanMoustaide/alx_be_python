@@ -8,7 +8,7 @@
 
 # ASK THE USER TO INPUT THE CURRENT WEATHER FROM A PREDEFINED SET OF CONDITIONS: “SUNNY”, “RAINY”, OR “COLD”.
 
-weather = input('What’s the weather like today? (sunny/rainy/cold):') #! Use the prompt: “What’s the weather like today? (sunny/rainy/cold): ”.
+weather = input("What's the weather like today? (sunny/rainy/cold):") #! Use the prompt: “What’s the weather like today? (sunny/rainy/cold): ”.
 
 current_weather = weather.lower()
 
