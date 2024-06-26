@@ -10,19 +10,18 @@
 
 weather = input("What's the weather like today? (sunny/rainy/cold):") #! Use the prompt: “What’s the weather like today? (sunny/rainy/cold): ”.
 
-current_weather = weather.lower()
 
 #! PROVIDE CLOTHING RECOMMENDATIONS:
 #! Based on the user’s input, your program will recommend different types of clothing:
 
-if current_weather == "sunny": #! If the weather is “sunny”, recommend: “Wear a t-shirt and sunglasses.”
+if weather == "sunny": #! If the weather is “sunny”, recommend: “Wear a t-shirt and sunglasses.”
     print('Wear a t-shirt and sunglasses.')
 
 
-elif current_weather == 'rainy': #! If the weather is “rainy”, recommend: “Don’t forget your umbrella and a raincoat.”
+elif weather == 'rainy': #! If the weather is “rainy”, recommend: “Don’t forget your umbrella and a raincoat.”
     print("Don't forget your umbrella and a raincoat.")
 
-elif current_weather == 'cold':  #! If the weather is “cold”, recommend: “Make sure to wear a warm coat and a scarf.
+elif weather == 'cold':  #! If the weather is “cold”, recommend: “Make sure to wear a warm coat and a scarf.
     print('Make sure to wear a warm coat and a scarf.')
 
 else:
