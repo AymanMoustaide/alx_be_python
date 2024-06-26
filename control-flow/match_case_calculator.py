@@ -17,7 +17,7 @@ operator = input('CHOOSE THE OPERATION (+, -, *, /):') #! ASK FOR THE TYPE OF OP
 #* PERFORM THE CALCULATION USING MATCH CASE:
 
 
-match operator: # !IMPLEMENT A MATCH CASE STATEMENT THAT EXECUTES THE CHOSEN OPERATION BASED ON THE USER’S INPUT.
+match operator: 
     case '+':
         result = num1 + num2
         print(f'THE RESULT IS', result)
