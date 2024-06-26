@@ -10,9 +10,9 @@
 
 #// MAKE SURE YOU USE NUM1 AND NUM2 FOR FIRST AND SECOND NUMBERS
 
-num1 = int(input('Enter the first number:'))  
-num2 = int(input('Enter the second number:'))
-operator = input('Ehoose the operation (+, -, *, /):') 
+num1 = int(input('enter the first number:'))  #! ASK THE USER TO INPUT TWO NUMBERS (ONE AT A TIME) USING: “ENTER THE FIRST NUMBER: ” AND “ENTER THE SECOND NUMBER: ”.
+num2 = int(input('enter the second number:'))
+operator = input('choose the operation (+, -, *, /):') #! ASK FOR THE TYPE OF OPERATION THEY’D LIKE TO PERFORM: “CHOOSE THE OPERATION (+, -, *, /): ”.
 
 match operator: 
     case '+':
