@@ -16,16 +16,23 @@ operator = input('choose the operation (+, -, *, /):') #! ASK FOR THE TYPE OF OP
 
 match operator: 
     case '+':
-        print(f'the result is', num1 + num2)
+        result = num1 + num2
+        print(f'The result is {result}.')
     case '-':
-        print(f'the result is', num1 - num2)
+        result = num1 - num2
+        print(f'The result is {result}.')
     case '*':
-        print(f'the result is', num1 * num2)
+        result = num1 * num2
+        print(f'The result is {result}.')
     case '/':
-            if num2 != 0: 
-                print(f'the result is', num1 / num2)
-            else:
-                print('cannot')
+        if num2 != 0:
+            result =num1 / num2
+            print(f'The result is {result}.')
+        else:
+            print('Cannot divide by zero.')
+            
+
+            
     
         
         
