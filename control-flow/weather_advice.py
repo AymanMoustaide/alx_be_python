@@ -16,17 +16,17 @@ current_weather = weather.lower()
 #! Based on the user’s input, your program will recommend different types of clothing:
 
 if current_weather == "sunny": #! If the weather is “sunny”, recommend: “Wear a t-shirt and sunglasses.”
-    print('WEAR A T-SHIRT AND SUNGLASSES.')
+    print('Wear a t-shirt and sunglasses.')
 
 
 elif current_weather == 'rainy': #! If the weather is “rainy”, recommend: “Don’t forget your umbrella and a raincoat.”
-    print('DON’T FORGET YOUR UMBRELLA AND A RAINCOAT.')
+    print("Don't forget your umbrella and a raincoat.")
 
 elif current_weather == 'cold':  #! If the weather is “cold”, recommend: “Make sure to wear a warm coat and a scarf.
-    print('MAKE SURE TO WEAR A WARM COAT AND A SCARF.')
+    print('Make sure to wear a warm coat and a scarf.')
 
 else:
-    print('SORRY, I DON’T HAVE RECOMMENDATIONS FOR THIS WEATHER.') #! Include an else statement that handles unexpected input by printing: “Sorry, I don’t have recommendations for this weather.
+    print("Sorry, I don't have recommendations for this weather.") #! Include an else statement that handles unexpected input by printing: “Sorry, I don’t have recommendations for this weather.
 
 # Output the Recommendation:
 
