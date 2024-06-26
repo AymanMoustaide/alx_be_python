@@ -25,8 +25,13 @@ match operator:
         result = num1 * num2
         print(f'the result is', result)
     case '/':
+        result = num1 / 0
+        print('annot divide by zero')
+    case '/':
         result = num1 / num2
         print(f'the result is', result)
+    
+        
         
         
         # else:
