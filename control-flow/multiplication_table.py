@@ -3,7 +3,7 @@
 
 x = int(input('ENTER A NUMBER TO SEE ITS MULTIPLICATION TABLE:'))
 
-for y in range(1, 11):
+for y in range(1, 10 +1):
     z = x * y
 
 
