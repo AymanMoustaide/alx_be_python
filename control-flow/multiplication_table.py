@@ -1,12 +1,8 @@
 
 #_OBJECTIVE: USE A FOR LOOP TO GENERATE AND PRINT THE MULTIPLICATION TABLE FOR A GIVEN NUMBER.
 
-x = int(input('ENTER A NUMBER TO SEE ITS MULTIPLICATION TABLE:'))
+X = int(input('ENTER A NUMBER TO SEE ITS MULTIPLICATION TABLE:'))
 
-#* GENERATE AND PRINT THE MULTIPLICATION TABLE:
-
-#! USE A FOR LOOP TO ITERATE THROUGH THE NUMBERS 1 TO 10.
-
-for y in range(1, 11):
-    z = x * y 
-    print(x, '*', y, '=', z)
+for Y in range(1, 11):
+    Z = X * Y 
+    print(X, '*', Y, '=', Z)
