@@ -18,5 +18,3 @@ match operator:
             print(f'the result is', result)
         else:
             print('cannot divide by zero')
-    case _ :
-        print('unkown operation')
