@@ -22,15 +22,3 @@ elif weather == 'cold':
 
 else:
     print("Sorry, I don't have recommendations for this weather.") 
-
-# Output the Recommendation:
-
-# Print the clothing recommendation based on the weather condition provided by the user.
-# Example Interaction:
-
-# What's the weather like today? (sunny/rainy/cold): sunny
-# Wear a t-shirt and sunglasses.
-# Or, for an unexpected input scenario:
-
-# What's the weather like today? (sunny/rainy/cold): windy
-# Sorry, I don't have recommendations for this weather.
