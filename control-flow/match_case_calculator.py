@@ -29,7 +29,7 @@ match operator:
 
             print('cannot')
         else:
-            result = num1 / num2
+            result = int(num1) / int(num2)
             print(f'the result is', result)
     
         
