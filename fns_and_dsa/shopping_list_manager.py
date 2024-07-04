@@ -36,15 +36,15 @@ def main():
             
         if choice == '1':
             # Prompt for and add an item
-            x = input('type your item')
+            item = input('type your item')
             print(x)
-            shopping_list.append(x)
+            shopping_list.append(item)
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            x = input('type what you want to remove')
-            if x in shopping_list:
-                shopping_list.remove(x)
+            item = input('type what you want to remove')
+            if item in shopping_list:
+                shopping_list.remove(item)
             else:
                 print('This item not in your shopping list')
 
