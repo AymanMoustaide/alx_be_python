@@ -6,7 +6,7 @@
 
 #! F To C = (14°F − 32) × 5/9 = -10°C
 
-temperature = int(input('Enter the temperature to convert:'))
+# temperature = int(input('Enter the temperature to convert:'))
 
 FAHRENHEIT_TO_CELSIUS_FACTOR = (temperature - 32) * 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = (temperature * 9/5) + 32
