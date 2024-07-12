@@ -1,3 +1,4 @@
+from test_simple_calculator import TestSimpleCalculator
 
 class SimpleCalculator:
     """A simple calculator class that supports basic arithmetic operations."""
